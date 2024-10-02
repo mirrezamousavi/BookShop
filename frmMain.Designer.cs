@@ -70,20 +70,23 @@
             // mnuCategory
             // 
             this.mnuCategory.Name = "mnuCategory";
-            this.mnuCategory.Size = new System.Drawing.Size(175, 26);
+            this.mnuCategory.Size = new System.Drawing.Size(224, 26);
             this.mnuCategory.Text = "دسته بندی";
+            this.mnuCategory.Click += new System.EventHandler(this.mnuCategory_Click);
             // 
             // mnuBook
             // 
             this.mnuBook.Name = "mnuBook";
-            this.mnuBook.Size = new System.Drawing.Size(175, 26);
+            this.mnuBook.Size = new System.Drawing.Size(224, 26);
             this.mnuBook.Text = "کتاب";
+            this.mnuBook.Click += new System.EventHandler(this.mnuBook_Click);
             // 
             // mnuCustomer
             // 
             this.mnuCustomer.Name = "mnuCustomer";
-            this.mnuCustomer.Size = new System.Drawing.Size(175, 26);
+            this.mnuCustomer.Size = new System.Drawing.Size(224, 26);
             this.mnuCustomer.Text = "مشتری";
+            this.mnuCustomer.Click += new System.EventHandler(this.mnuCustomer_Click);
             // 
             // mnuiAction
             // 
@@ -96,8 +99,9 @@
             // mnuOrder
             // 
             this.mnuOrder.Name = "mnuOrder";
-            this.mnuOrder.Size = new System.Drawing.Size(152, 26);
+            this.mnuOrder.Size = new System.Drawing.Size(224, 26);
             this.mnuOrder.Text = "سفارش";
+            this.mnuOrder.Click += new System.EventHandler(this.mnuOrder_Click);
             // 
             // mnuiHelp
             // 
@@ -137,6 +141,7 @@
             this.Name = "frmMain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "فروشگاه کتاب";
+           
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
